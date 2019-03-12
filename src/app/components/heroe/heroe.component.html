@@ -10,10 +10,13 @@
     </div>
 
     <div class="col-md-8">
-        <h3> {{heroe.nombre}} </h3>
+        <h3> {{heroe.nombre }} </h3>
         <hr>
         <p>
             {{heroe.bio}}
+        </p>
+        <p>
+             Fecha de aparicion: {{ heroe.aparicion }}
         </p>
         <div class="">
             <img *ngIf="heroe.casa=='Marvel'" src="assets/img/marvel-logo.png" class="img-logo" alt="Marvel">
